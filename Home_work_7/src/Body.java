@@ -3,12 +3,15 @@ import java.util.Scanner;
 public class Body {
     public static void main(final String[] argc) {
         int i = 0;
-        Body.Country[] puff = Country.values();
+        Country[] puff = Country.values();
         System.out.println("Вывожу список всех стран");
-        while (i < puff.length) {
+        for (Country name : puff) {
+            System.out.println(name);
+        }
+        /*while (i < puff.length) {
             System.out.println(puff[i]);
             i++;
-        }
+        }*/
         Scanner into = new Scanner(System.in, "UTF-8");
         while (true) {
             System.out.println("Введите интересующую вас страну.");
@@ -30,73 +33,27 @@ public class Body {
             checkMet(puff);
         } catch (IllegalArgumentException e) {
             System.out.println("Наименование страны на английском введено некорректно, проверяем русское название...");
-            getByRuName(strIn);
+            try {
+                Country.getByRuName(strIn);
+            } catch (NoCountryException x) {
+                System.out.println("В нашей базе нет страны под названием " + strIn + ".");
+                System.out.println("Попробуйте ещё.");
+                System.out.println();
+            }
         } catch (NullPointerException e) {
-            System.out.println("Вот мы и тут");
-            throw new NullPointerException("Ошибка. Кто-то подсунул нам Null. strIn = " + strIn);
+            System.out.println("Ошибка. Кто-то подсунул нам Null. strIn = " + strIn);
+            System.out.println();
         }
     }
 
     public static void checkMet(final Country country) {
         String bool;
-        if (country.isOpen) {
+        if (country.getIsOpen()) {
             bool = "открыта";
         } else {
             bool = "закрыта";
         }
         System.out.println("Страна [" + country + "] " + bool + " для туристов.");
         System.out.println();
-    }
-
-    public static void getByRuName(final String ru) {
-        int i = 0;
-        Body.Country[] puff = Country.values();
-        while (i < puff.length) {
-            if ((puff[i].ru.equals(ru))) {
-                checkMet(puff[i]);
-                return;
-            }
-            i++;
-        }
-        try {
-            throw new NoCountryException(ru);
-        } catch (NoCountryException e) {
-            System.out.println("Попробуйте ещё.");
-            System.out.println();
-        }
-    }
-
-    public enum Country {
-        CUBA("Куба", true) {
-        },
-        UAE("ОАЭ", true) {
-        },
-        THAILAND("Тайланд", false) {
-        },
-        BULGARIA("Болгария", false) {
-        },
-        GREECE("Греция", false) {
-        },
-        VIETNAM("Вьетнам", false) {
-        },
-        TURKEY("Турция", true) {
-        },
-        EGYPT("Египет", true) {
-        },
-        CYPRUS("Кипр", false) {
-        };
-
-        private final String ru;
-        private boolean isOpen;
-
-        Country(final String ru, final boolean isOpen) {
-            this.ru = ru;
-            this.isOpen = isOpen;
-        }
-
-        @Override
-        public String toString() {
-            return name() + " (" + ru + ")";
-        }
     }
 }

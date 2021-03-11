@@ -1,5 +1,7 @@
-public class NoCountryException extends Throwable {
+public class NoCountryException extends Exception {
     public NoCountryException(final String ru) {
-        System.out.println("В нашей базе нет страны под названием " + ru + ". Обрабатываются строго страны из списка.");
+        System.out.print("Эх, ну и что мне с тобой делать? ");
+        System.out.println("Мне сказали, что программа должна работать, живи пока");
+        System.out.println("Но смотри, если еще раз увижу " + ru + " за себя не ручаюсь!");
     }
 }

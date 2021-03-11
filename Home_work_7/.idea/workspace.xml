@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body$Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/Body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Body/Body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/META-INF/Body.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Body/NoCountryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Body/NoCountryException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NoCountryException.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,8 +87,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1pZLLPDMyFiFWXTBKeZ3U29pzsC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -85,10 +109,11 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/tinek/T_checks_2020.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="settings.findbugs.project" />
   </component>
@@ -209,6 +234,7 @@
       <workItem from="1615393099958" duration="521000" />
       <workItem from="1615393727844" duration="8793000" />
       <workItem from="1615402860395" duration="676000" />
+      <workItem from="1615462168595" duration="12208000" />
     </task>
     <servers />
   </component>
@@ -228,46 +254,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Java/0.0.1366.728@0.0.1366.728" timestamp="1615399168139" />
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1615400636167">
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1615471188692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1615400636167" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1615471188692" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615471245329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615471245329" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1615393980580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615393980580" />
-    <state width="1322" height="146" key="GridCell.Tab.0.bottom" timestamp="1615403648973">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1615474478332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615403648973" />
-    <state width="1322" height="146" key="GridCell.Tab.0.center" timestamp="1615403648972">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615474478332" />
+    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1615474478331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615403648972" />
-    <state width="1322" height="146" key="GridCell.Tab.0.left" timestamp="1615403648972">
+    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615474478331" />
+    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1615474478331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615403648972" />
-    <state width="1322" height="146" key="GridCell.Tab.0.right" timestamp="1615403648972">
+    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615474478331" />
+    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1615474478331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615403648972" />
-    <state width="1322" height="146" key="GridCell.Tab.1.bottom" timestamp="1615403648974">
+    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615474478331" />
+    <state width="1322" height="148" key="GridCell.Tab.1.bottom" timestamp="1615474478333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615403648974" />
-    <state width="1322" height="146" key="GridCell.Tab.1.center" timestamp="1615403648973">
+    <state width="1322" height="148" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615474478333" />
+    <state width="1322" height="148" key="GridCell.Tab.1.center" timestamp="1615474478332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615403648973" />
-    <state width="1322" height="146" key="GridCell.Tab.1.left" timestamp="1615403648973">
+    <state width="1322" height="148" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615474478332" />
+    <state width="1322" height="148" key="GridCell.Tab.1.left" timestamp="1615474478332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615403648973" />
-    <state width="1322" height="146" key="GridCell.Tab.1.right" timestamp="1615403648973">
+    <state width="1322" height="148" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615474478332" />
+    <state width="1322" height="148" key="GridCell.Tab.1.right" timestamp="1615474478332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="146" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615403648973" />
+    <state width="1322" height="148" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615474478332" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1615403246773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
